@@ -9,7 +9,7 @@ keywords = ["text", "opengl"]
 license = "MIT"
 
 [dependencies]
-rusttype = "0.7.7"
+rusttype = { git = "https://github.com/Kwask/rusttype.git", branch = "glium-update" }
 
 [dependencies.glium]
 version = "0.25.1"
